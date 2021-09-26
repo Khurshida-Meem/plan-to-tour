@@ -1,6 +1,6 @@
 # Plan to Tour in Budget
 
-The project is hosted at [Live Site](https://github.com/facebook/create-react-app).
+The project is hosted at [Live Site](https://tourplan-km.netlify.app/).
 
 - you can learn various tourist place
 - you can add a place to make plan in your budget
