@@ -1,13 +1,32 @@
 .single-card {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
-        rgba(0, 0, 0, 0.22) 0px 10px 10px;
-        border-radius: 10px;
-        padding: 10px;
-
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #fffffe;
 }
 
 .single-card img {
     width: 300px;
     height: 200px;
-    border-radius: 100px;
+    border-radius: 10px;
+    
+}
+.place-heading{
+    margin-bottom: 5px;
+}
+.rating {
+    margin: 10px 0;
+}
+.fa-star{
+    color: goldenrod;
+}
+.fa-users{
+    color: #ef4565;
+    margin-bottom: 5px;
+}
+.addPlan{
+    font-size: 15px;
+    margin-right: 5px;
 }

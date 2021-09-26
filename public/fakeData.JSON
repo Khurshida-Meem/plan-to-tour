@@ -4,7 +4,7 @@
         "place": "Sajek Valley",
         "country": "Bangladesh",
         "thumb": "https://avijatrik.org/wp-content/uploads/2019/06/cover22-870x555.jpg",
-        "star": 4.7,
+        "star": 3.7,
         "starCount": 8716,
         "cost": 450
     },
@@ -14,7 +14,7 @@
         "country": "Bangladesh",
         "thumb": "https://www.assignmentpoint.com/wp-content/uploads/2017/10/saint-martin-bangladesh-1.jpg",
         "via": "Plane, Bus, Ship",
-        "star": 4.8,
+        "star": 4.6,
         "starCount": 4031,
         "cost": 650
     },
@@ -42,9 +42,9 @@
         "place": "Istanbul",
         "country": "Turkey",
         "thumb": "https://www.worldatlas.com/r/w1200/upload/00/88/e2/istanbul-bosphorus-strait.jpg",
-        "star": 4.7,
+        "star": 5,
         "starCount": 64567,
-        "cost": 7000
+        "cost": 3000
     },
     {
         "id": 6,
@@ -53,7 +53,7 @@
         "thumb": "https://www.tourmag.com/photo/art/default/7732587-11968584.jpg?v=1430253115",
         "star": 4.9,
         "starCount": 43567,
-        "cost": 10000
+        "cost": 7000
     },
     {
         "id": 7,

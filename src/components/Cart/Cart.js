@@ -1,18 +1,29 @@
-import React from 'react';
+import SelectedPlace from "../SelectedPlace/SelectedPlace";
 
 const Cart = (props) => {
 
-    const {place} = props;
+    const { place } = props;
+    let counter =0;
     const totalReducer = (previous, place) => previous + place.cost;
     const total = place.reduce(totalReducer, 0)
-
-    console.log(place);
+    
     return (
-        <div>
-            <h2>Total Added: {place.length}</h2>
-            <h4>Total Cost: {total}</h4>
+        <div className='cart-container'>
+            <div>
+                <h2>Total Added: {place.length}</h2>
+                <h4>Total Cost: {total}</h4>
+            </div>
+            <div>
+                {
+                    place.map(selectedPlace => <SelectedPlace selectedPlace={selectedPlace}
+                        key={counter++}
+                    ></SelectedPlace> )
+                }
+            </div>
         </div>
+
     );
+    
 };
 
 export default Cart;

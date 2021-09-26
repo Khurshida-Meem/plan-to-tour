@@ -12,7 +12,6 @@ const Destinations = () => {
             .then(res => res.json())
             .then(data => setData(data))
     },[])
-
     const handleAddItem = (singlePlace) => {
         const newPlace = [...place, singlePlace]
         setPlace(newPlace);
