@@ -11,7 +11,7 @@ const Cart = (props) => {
         <div className='cart-container'>
             {/* display  values */}
             <div>
-                <h2><i class="fas fa-map-marked-alt"></i> Total Place Added: {place.length}</h2>
+                <h2><i className="fas fa-map-marked-alt"></i> Total Place Added: {place.length}</h2>
                 <h4>Total Travel Cost: {total}</h4>
             </div>
 
