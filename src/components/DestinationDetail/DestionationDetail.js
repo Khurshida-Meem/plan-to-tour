@@ -24,7 +24,7 @@ const DestionationDetail = (props) => {
             <small>({star})</small><br />
 
             {/* rating given by users */}
-            <span><i class="fas fa-users"></i> {starCount}</span>
+            <span><i className="fas fa-users"></i> {starCount}</span>
            <br />
             <button
                 className='button-primary'

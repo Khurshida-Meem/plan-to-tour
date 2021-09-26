@@ -22,6 +22,7 @@ const Destinations = () => {
 
     return (
         <div className='destination-container'>
+            
             <div className='place-container'>
                 {
                     data.map(destination => <DestionationDetail 

@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <Header></Header>
+      <h1 className="top-heading">Availabe Place</h1>
       <Destinations></Destinations>
     </div>
   );

@@ -41,3 +41,7 @@ button:hover{
 .button-secondary:hover {
     background-color: #ee2b4f;
 }
+.top-heading{
+    text-align: center;
+    margin: 20px 0;
+}
