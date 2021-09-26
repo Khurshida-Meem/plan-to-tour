@@ -1,4 +1,5 @@
 import SelectedPlace from "../SelectedPlace/SelectedPlace";
+import './Cart.css'
 
 const Cart = (props) => {
 
@@ -12,7 +13,7 @@ const Cart = (props) => {
             {/* display  values */}
             <div>
                 <h2><i className="fas fa-map-marked-alt"></i> Total Place Added: {place.length}</h2>
-                <h4>Total Travel Cost: {total}</h4>
+                <h3>Total Travel Cost: {total}</h3>
             </div>
 
             {/* display selected value by mapping*/}

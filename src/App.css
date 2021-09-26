@@ -31,7 +31,7 @@ button:hover{
 .button-secondary{
     background-color: #ef4565;
     color: #fffffe;
-    padding: 10px 30px;
+    padding: 16px 32px;
     border: none;
     border-radius: 5px;
     transition: 0.4s;
@@ -45,3 +45,4 @@ button:hover{
     text-align: center;
     margin: 20px 0;
 }
+

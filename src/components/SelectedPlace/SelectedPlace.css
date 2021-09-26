@@ -2,14 +2,15 @@
     background-color: #094067;
     display: flex;
     align-items: center;
-    margin: 30px;
+    margin: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 10px;
     border-radius: 10px;
     
 }
 .selected-item-container img{
-    width: 150px;
+    width: 100px;
+    height: 70px;
     border-radius: 10px;
 }
 .selected-item-container h3{
@@ -18,4 +19,5 @@
 }
 .selected-item-container p{
     color: #d8eefe;
+    padding: 5px;
 }

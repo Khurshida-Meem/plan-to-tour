@@ -13,6 +13,9 @@
     border-radius: 10px;
     
 }
+.single-card h1{
+    color: #ef4565;
+}
 .place-heading{
     margin-bottom: 5px;
 }

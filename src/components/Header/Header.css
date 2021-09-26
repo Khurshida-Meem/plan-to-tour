@@ -1,6 +1,6 @@
 .container {
     background-image: url(../../img/banner.jpg);
-    height: 100vh;
+    height: 500px;
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 30px;
@@ -10,7 +10,7 @@
 }
 .element-container{
     background-color: #d8eefe77;
-    padding: 100px 200px;
+    padding: 30px 100px;
 }
 .container h1{
     color: #094067;
