@@ -2,10 +2,11 @@ import React from 'react';
 import './SelectedPlace.css'
 
 const SelectedPlace = (props) => {
-    // console.log(props);
+
+    // came the data from cart.js
     const { thumb, place, cost} = props.selectedPlace;
     
-    console.log(props);
+    // sho data after selecting
     return (
         <div className='selected-item-container'>
             <img src= {thumb} alt=""/>

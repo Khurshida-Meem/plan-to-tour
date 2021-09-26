@@ -9,10 +9,13 @@ const Cart = (props) => {
     
     return (
         <div className='cart-container'>
+            {/* display  values */}
             <div>
                 <h2>Total Added: {place.length}</h2>
                 <h4>Total Cost: {total}</h4>
             </div>
+
+            {/* display selected value by mapping*/}
             <div>
                 {
                     place.map(selectedPlace => <SelectedPlace selectedPlace={selectedPlace}

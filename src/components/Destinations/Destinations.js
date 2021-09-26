@@ -6,12 +6,15 @@ import './Destination.css'
 const Destinations = () => {
     const [data, setData] = useState([])
     const [place, setPlace] = useState([])
-
+    
+    // load data
     useEffect(() => {
         fetch('./fakeData.JSON')
             .then(res => res.json())
             .then(data => setData(data))
     },[])
+
+    // asigning to an array to calculate costings
     const handleAddItem = (singlePlace) => {
         const newPlace = [...place, singlePlace]
         setPlace(newPlace);

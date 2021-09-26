@@ -1,10 +1,21 @@
 .selected-item-container{
+    background-color: #094067;
     display: flex;
     align-items: center;
     margin: 30px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 10px;
+    
 }
 .selected-item-container img{
-    width: 100px;
-    margin-left: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+.selected-item-container h3{
+    color: #fffffe;
+    margin-left: 5px;
+}
+.selected-item-container p{
+    color: #d8eefe;
 }
